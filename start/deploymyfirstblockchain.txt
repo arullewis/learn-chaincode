@@ -1,0 +1,21 @@
+
+{
+  "jsonrpc": "2.0",
+  "method": "deploy",
+  "params": {
+    "type": 1,
+    "chaincodeID": {
+        "name": "arultest1"
+      "path": "https://github.com/arullewis/learn-chaincode/blob/v2.0/start"
+    },
+    "ctorMsg": {
+      "function": "init",
+      "args": [
+        "hi there"
+      ]
+    },
+    "secureContext": "jim"
+  },
+  "id": 1
+}
+
